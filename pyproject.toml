@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "registerimc"
+version = "0.1.0"
+description = "A package for registration/stitching of Imaging Mass Cytometry ROIs using a reference immunofluorescence (IF) image."
+authors = ["Lysette Marshall <lysette.marshall-2@postgrad.manchester.ac.uk>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^2.0.1"
+opencv-python = "^4.10.0.84"
+tifffile = "^2024.8.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
