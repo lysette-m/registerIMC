@@ -37,7 +37,7 @@ The registration process is performed in two steps:
 
 The second step is performed only within the area identified by step 1. This step repeats the template matching, but with small incremental rotations of the IMC image to identify the 'best' rotation angle. 
 
-You can specify the maximum rotation angle to consider with '```max_angle```', as well as the size of the increment for the rotation search ('```angle_increment```').
+You can specify the maximum rotation angle to consider with the '```max_angle```' argument, as well as the size of the increment for the rotation search ('```angle_increment```').
 
 
 
