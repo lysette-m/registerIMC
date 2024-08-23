@@ -213,7 +213,6 @@ def register_IF_IMC(IF_ref, IMC_path: str, ROI_prefix: str, output_path: str,
 
         transformations[ROI] = (best_angle, best_loc)
 
-        print (f'Best angle = {best_angle}')
 
     for marker in markers:
 
